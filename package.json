@@ -40,12 +40,12 @@
     },
     "cds": {
         "build": {
-        "target": "."
+            "target": "."
         },
         "requires": {
-        "db": {
-        "kind": "hana"
-        }
+            "db": {
+                "kind": "hana"
+            }
         },
         "hana": {
             "deploy-format": "hdbtable"

@@ -1,0 +1,22 @@
+{
+    "name": "ws3_2-srv",
+    "version": "1.0.0",
+    "dependencies": {
+    "@sap/cds": "^5",
+    "express": "^4",
+    "@sap/hana-client": "^2.9"
+    },
+    "scripts": {
+    "start": "cds serve gen/csn.json"
+    },
+    "cds": {
+    "requires": {
+    "db": {
+    "kind": "hana"
+    }
+    }
+    },
+    "engines": {
+    "node": "^14"
+    }
+}
