@@ -11,6 +11,17 @@
 			    "delimiter": ","
 		    }
 	    }
+	},{
+	    "target_table": "BOSTON_HOUSE_PRICES_V2",
+	    "source_data": {
+		    "data_type": "CSV",
+		    "file_name": "boston-house-prices.csv",
+		    "has_header": true,
+		    "dialect": "HANA",
+		    "type_config": {
+			    "delimiter": ","
+		    }
+	    }
 	} 
     ]
 }
