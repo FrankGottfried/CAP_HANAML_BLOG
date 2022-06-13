@@ -71,6 +71,25 @@
           "type": "cds.Integer"
         }
       }
+    },
+    "PAL_PARAMETER_TBL": {
+      "kind": "entity",
+      "elements": {
+        "PARAM_NAME": {
+          "type": "cds.String",
+          "length": 256
+        },
+        "INT_VALUE": {
+          "type": "cds.Integer"
+        },
+        "DOUBLE_VALUE": {
+          "type": "cds.Double"
+        },
+        "STRING_VALUE": {
+          "type": "cds.String",
+          "length": 1000
+        }
+      }
     }
   },
   "meta": {
