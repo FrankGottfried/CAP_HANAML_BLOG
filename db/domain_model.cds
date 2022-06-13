@@ -16,3 +16,10 @@ entity BOSTON_HOUSE_PRICES_V2 {
    ID: Integer;
 }
 
+entity PAL_PARAMETER_TBL {
+  PARAM_NAME : String(256);
+  INT_VALUE : Integer;
+  DOUBLE_VALUE : Double; 
+  STRING_VALUE : String(1000);
+};
+
