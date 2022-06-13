@@ -1,0 +1,100 @@
+{
+  "definitions": {
+    "BOSTON_HOUSE_PRICES_V2": {
+      "kind": "entity",
+      "elements": {
+        "CRIM": {
+          "type": "cds.Decimal",
+          "precision": 12,
+          "scale": 5
+        },
+        "ZN": {
+          "type": "cds.Decimal",
+          "precision": 7,
+          "scale": 2
+        },
+        "INDUS": {
+          "type": "cds.Decimal",
+          "precision": 7,
+          "scale": 2
+        },
+        "CHAS": {
+          "type": "cds.Integer"
+        },
+        "NOX": {
+          "type": "cds.Decimal",
+          "precision": 10,
+          "scale": 4
+        },
+        "RM": {
+          "type": "cds.Decimal",
+          "precision": 8,
+          "scale": 3
+        },
+        "AGE": {
+          "type": "cds.Decimal",
+          "precision": 7,
+          "scale": 3
+        },
+        "DIS": {
+          "type": "cds.Decimal",
+          "precision": 11,
+          "scale": 4
+        },
+        "RAD": {
+          "type": "cds.Integer"
+        },
+        "TAX": {
+          "type": "cds.Integer"
+        },
+        "PTRATIO": {
+          "type": "cds.Decimal",
+          "precision": 6,
+          "scale": 2
+        },
+        "BLACK": {
+          "type": "cds.Decimal",
+          "precision": 9,
+          "scale": 3
+        },
+        "LSTAT": {
+          "type": "cds.Decimal",
+          "precision": 7,
+          "scale": 2
+        },
+        "MEDV": {
+          "type": "cds.Decimal",
+          "precision": 6,
+          "scale": 2
+        },
+        "ID": {
+          "type": "cds.Integer"
+        }
+      }
+    },
+    "PAL_PARAMETER_TBL": {
+      "kind": "entity",
+      "elements": {
+        "PARAM_NAME": {
+          "type": "cds.String",
+          "length": 256
+        },
+        "INT_VALUE": {
+          "type": "cds.Integer"
+        },
+        "DOUBLE_VALUE": {
+          "type": "cds.Double"
+        },
+        "STRING_VALUE": {
+          "type": "cds.String",
+          "length": 1000
+        }
+      }
+    }
+  },
+  "meta": {
+    "creator": "CDS Compiler v2.13.8",
+    "flavor": "inferred"
+  },
+  "$version": "2.0"
+}
